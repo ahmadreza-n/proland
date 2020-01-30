@@ -45,3 +45,7 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.list-unstyled {
+  padding-right: 0;
+}
