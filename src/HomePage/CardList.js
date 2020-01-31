@@ -7,7 +7,7 @@ import products from './images';
 const Loader = () => (
   <Spinner
     color="primary"
-    style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '30%' }}
+    style={{ margin: 'auto', position: 'absolute !important' }}
   />
 );
 
