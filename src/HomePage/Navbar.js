@@ -70,7 +70,7 @@ class Example extends PureComponent {
                     </li>
                     <li style={{ color: '#fff' }}>
                       <i className="far fa-map-pin ml-2" />
-                      {'تهران، شهرک غرب، فرحزادی،‌ بالاتر از دریا، بهاران ۳،'}
+                      {'تهران، شهرک غرب، فرحزادی،‌ بالاتر از دریا، بهاران ۳'}
                     </li>
                   </ul>
                 </div>
