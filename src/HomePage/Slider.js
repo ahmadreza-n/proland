@@ -7,11 +7,10 @@ import {
   CarouselCaption,
 } from 'reactstrap';
 
-import header from './images/2.png';
 
 const items = [
   {
-    src: header,
+    src: '',
     altText: 'Header',
     caption: 'Header',
   },

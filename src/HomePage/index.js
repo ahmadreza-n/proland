@@ -13,7 +13,9 @@ class HomePage extends PureComponent {
             <h1>درباره محصولات</h1>
             <p className="lead text-muted">
               {`
-              طعم سلامتی!
+              تمامی محصولات پرولند در حضور مشتری تولید میشه و
+               میتونین با خیال راحت از طعم واقعی هر نوع فراورده گوشتی و مرغی لذت ببرین.\n
+               برای دیدن همه محصولات از مغازه ما دیدن کنین.
               `}
             </p>
             {/* <p>
@@ -33,7 +35,7 @@ class HomePage extends PureComponent {
                 <i className="far fa-arrow-up" />
               </a>
             </p>
-            <p>تمامی حقوق سایا محفوظ میباشد.</p>
+            <p>تمامی حقوق سایت محفوظ میباشد.</p>
           </div>
         </footer>
       </>

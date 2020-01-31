@@ -33,7 +33,8 @@ class Example extends PureComponent {
                 <div className="col-sm-8 col-md-7 py-4">
                   <h4 className="text-white">درباره ما</h4>
                   <p className="text-muted">
-                    {'پرولند اولین ارائه کننده کالباس و سوسیس در ایران.'}
+                    {`پرولند تولید کننده سوسیس و کالباس سالم از گوشت و مرغ تازه و بدون هیچگونه ضایعاتی است.
+                     میتونین با خیال راحت و بدون نگرانی از طعم واقعی سوسیس و کالباس لذت ببرین`}
                   </p>
                 </div>
                 <div className="col-sm-4 offset-md-1 py-4">
@@ -60,6 +61,14 @@ class Example extends PureComponent {
                         <i className="far fa-map-marker-alt ml-2" />
                         {'به ما سر بزنید'}
                       </a>
+                    </li>
+                    <li style={{ color: '#fff' }}>
+                      <i className="far fa-phone ml-2" />
+                      {'021-86127330'}
+                    </li>
+                    <li style={{ color: '#fff' }}>
+                      <i className="far fa-map-pin ml-2" />
+                      {'تهران، شهرک غرب، فرحزادی،‌ بالاتر از دریا، بهاران ۳،'}
                     </li>
                   </ul>
                 </div>
