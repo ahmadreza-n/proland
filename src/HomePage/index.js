@@ -24,20 +24,30 @@ class HomePage extends PureComponent {
             </p> */}
           </div>
         </section>
-        <div className="row justify-content-center mb-5">
-          <video
-            controls
-            width="80%"
-          >
-            <source src="videos/process.mp4" type="video/mp4" />
-            <track
-              default
-              kind="captions"
-              srcLang="en"
-            />
-            {'Sorry, your browser doesn\'t support embedded videos.'}
-          </video>
-        </div>
+        <video
+          controls
+          width="80%"
+          height="auto !important"
+          style={{
+            maxWidth: '80%',
+            height: 'auto !important',
+            display: 'flex',
+            marginRight: 'auto',
+            marginLeft: 'auto',
+          }}
+          className="mb-5"
+        >
+          <source
+            src="videos/process.mp4"
+            type="video/mp4"
+          />
+          <track
+            default
+            kind="captions"
+            srcLang="en"
+          />
+          {'Sorry, your browser doesn\'t support embedded videos.'}
+        </video>
         <CardList />
         <footer className="text-muted">
           <div className="container">
