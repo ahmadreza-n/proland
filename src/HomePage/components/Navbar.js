@@ -6,8 +6,6 @@ import {
   NavbarBrand,
 } from 'reactstrap';
 
-import logo from './logo.png';
-
 class Example extends PureComponent {
   constructor(props) {
     super(props);
@@ -78,7 +76,7 @@ class Example extends PureComponent {
             </div>
           </Collapse>
           <NavbarBrand href="/" className="ml-auto">
-            <img src={logo} alt="logo" className="ml-2" style={{ width: 40, height: 40 }} />
+            <img src={'images/logo.png'} alt="logo" className="ml-2" style={{ width: 40, height: 40 }} />
             {'پرولند'}
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} className="ml-2" />

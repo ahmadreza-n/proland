@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 
-import NavBar from './Navbar';
-import CardList from './CardList';
+import NavBar from './components/Navbar';
+import CardList from './components/CardList';
 
 class HomePage extends PureComponent {
   render() {

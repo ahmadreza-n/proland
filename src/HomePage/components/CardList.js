@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import Img from 'react-image';
 import { Spinner } from 'reactstrap';
 
-import products from './images';
+import products from './ProductsData';
 
 const Loader = () => (
   <Spinner
