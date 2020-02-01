@@ -27,7 +27,7 @@ class HomePage extends PureComponent {
         <div className="row justify-content-center mb-5">
           <video
             controls
-            className="col col-10"
+            width="80%"
           >
             <source src="videos/process.mp4" type="video/mp4" />
             <track
