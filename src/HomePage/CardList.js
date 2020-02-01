@@ -8,6 +8,7 @@ const Loader = () => (
   <Spinner
     color="primary"
     style={{ margin: 'auto', position: 'absolute !important' }}
+    className="mt-2"
   />
 );
 
