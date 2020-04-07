@@ -53,7 +53,7 @@ class Example extends PureComponent {
                     </li>
                     <li>
                       <a
-                        href="https://goo.gl/maps/93959zCv9d4rSc9L9"
+                        href="https://goo.gl/maps/fx7vJUNrZwibKTLf8"
                         className="text-white"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -68,7 +68,7 @@ class Example extends PureComponent {
                     </li>
                     <li style={{ color: '#fff' }}>
                       <i className="far fa-map-pin ml-2" />
-                      {'تهران، شهرک غرب، فرحزادی،‌ بالاتر از دریا، بهاران ۳'}
+                      {'شهرک غرب، بلوار دادمان، نرسیده به پل یادگار امام، پلاک ۱۳۸'}
                     </li>
                   </ul>
                 </div>

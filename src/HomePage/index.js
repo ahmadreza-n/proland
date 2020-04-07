@@ -36,6 +36,7 @@ class HomePage extends PureComponent {
             marginLeft: 'auto',
           }}
           className="mb-5"
+          poster="images/logo.png"
         >
           <source
             src="videos/process.mp4"
